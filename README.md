@@ -1,2 +1,2 @@
-# Data-Science-Projects
-This repository serves as a showcase for my data science projects, demonstrating my skills in analyzing and visualizing data to derive meaningful insights. Each project explores diverse datasets and employs various machine learning , deep learning and NLP techniques.
+Here I He built a Linear Regression , Random Forest and Neural Network model on a Turbofan data to predict The HPC efficinecy 
+and Selected the Best Model out of three models, so for the data the linear regression model Gives a whooping 99% R2 Score.
