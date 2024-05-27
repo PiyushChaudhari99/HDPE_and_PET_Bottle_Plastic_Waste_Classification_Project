@@ -1,3 +1,12 @@
+Metadata-Version: 2.1
+Name: cnnImageClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/PiyushChaudhari99/HDPE_and_PET_Bottle_Plastic_Waste_Classification_Project
+Author: PiyushChaudhari99
+Author-email: piyushpchaudhari@gmail.com
+Project-URL: bug Tracker, https://github.com/PiyushChaudhari99/HDPE_and_PET_Bottle_Plastic_Waste_Classification_Project/issues
+
 # HDPE and PET bottle plastic waste classification project
 
 
