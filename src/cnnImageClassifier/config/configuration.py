@@ -3,6 +3,7 @@ from src.cnnImageClassifier.utils.common import read_yaml,create_directories
 from src.cnnImageClassifier.entity.config_entity import DataIngestionConfig
 from src.cnnImageClassifier.entity.config_entity import PrepareBaseModelConfig
 from src.cnnImageClassifier.entity.config_entity import TrainingConfig
+from src.cnnImageClassifier.entity.config_entity import EvaluationConfig
 import os
 
 
@@ -76,3 +77,18 @@ class ConfigurationManager:
         )
 
         return training_config
+    
+
+    def get_evaluation_config(self) -> EvaluationConfig:
+        eval_config = EvaluationConfig(
+            path_of_model="artifacts/training/model.h5",
+            training_data="artifacts/data_ingestion/PTE_HDPE_BOTTLS_DATASET",
+            mlflow_uri="https://dagshub.com/PiyushChaudhari99/HDPE_and_PET_Bottle_Plastic_Waste_Classification_Project.mlflow",
+            all_params=self.params,
+            params_image_size=self.params.IMAGE_SIZE,
+            params_batch_size=self.params.BATCH_SIZE
+        )
+        return eval_config
+    
+    
+    
