@@ -47,29 +47,3 @@ open up you local host and port
 ```
 
 
-
-#### MLFLOW
-[Documentation](https://mlflow.org/docs/latest/index.html)
-
-
-
-##### cmd
-- mlflow ui
-
-### DagsHub
-[DagsHub](https://dagshub.com/)
-
-
-MLFLOW_TRACKING_URI= "https://dagshub.com/PiyushChaudhari99/HDPE_and_PET_Bottle_Plastic_Waste_Classification_Project.mlflow"
-
-MLFLOW_TRACKING_USERNAME= "PiyushChaudhari99"
-
-MLFLOW_TRACKING_PASSWORD= "e59ebc051282a6fc2df2e5953c71674e757a6587"
-
-
-Run this to export as env variables:
-```bash
-export MLFLOW_TRACKING_URI= https://dagshub.com/PiyushChaudhari99/HDPE_and_PET_Bottle_Plastic_Waste_Classification_Project.mlflow
-export MLFLOW_TRACKING_USERNAME= PiyushChaudhari99
-export MLFLOW_TRACKING_PASSWORD= e59ebc051282a6fc2df2e5953c71674e757a6587
-```

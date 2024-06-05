@@ -1,9 +1,9 @@
-from src.cnnImageClassifier.constants import *
-from src.cnnImageClassifier.utils.common import read_yaml,create_directories
-from src.cnnImageClassifier.entity.config_entity import DataIngestionConfig
-from src.cnnImageClassifier.entity.config_entity import PrepareBaseModelConfig
-from src.cnnImageClassifier.entity.config_entity import TrainingConfig
-from src.cnnImageClassifier.entity.config_entity import EvaluationConfig
+from cnnImageClassifier.constants import *
+from cnnImageClassifier.utils.common import read_yaml,create_directories
+from cnnImageClassifier.entity.config_entity import DataIngestionConfig
+from cnnImageClassifier.entity.config_entity import PrepareBaseModelConfig
+from cnnImageClassifier.entity.config_entity import TrainingConfig
+from cnnImageClassifier.entity.config_entity import EvaluationConfig
 import os
 
 

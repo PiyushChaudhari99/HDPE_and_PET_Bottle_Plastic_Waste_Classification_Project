@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Data_Science_Projects/CNN_Project/HDPE_and_PET_Bottle_Plastic_Waste_classification_Project/mlruns/0/2090060a40c249e7b177f1fbf96485ad/artifacts
+end_time: 1717600154747
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2090060a40c249e7b177f1fbf96485ad
+run_name: amazing-fox-6
+run_uuid: 2090060a40c249e7b177f1fbf96485ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717600129270
+status: 3
+tags: []
+user_id: shree

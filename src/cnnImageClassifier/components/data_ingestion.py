@@ -1,9 +1,9 @@
 import os
 import zipfile
 import gdown
-from src.cnnImageClassifier import logger
-from src.cnnImageClassifier.utils.common import get_size
-from src.cnnImageClassifier.entity.config_entity import (DataIngestionConfig)
+from cnnImageClassifier import logger
+from cnnImageClassifier.utils.common import get_size
+from cnnImageClassifier.entity.config_entity import (DataIngestionConfig)
 
 class DataIngestion():
     def __init__(self,config : DataIngestionConfig):
