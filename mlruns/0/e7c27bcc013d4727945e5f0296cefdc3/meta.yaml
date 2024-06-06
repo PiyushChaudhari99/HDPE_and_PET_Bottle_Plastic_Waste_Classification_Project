@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Data_Science_Projects/CNN_Project/HDPE_and_PET_Bottle_Plastic_Waste_classification_Project/mlruns/0/e7c27bcc013d4727945e5f0296cefdc3/artifacts
+end_time: 1717605016275
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e7c27bcc013d4727945e5f0296cefdc3
+run_name: invincible-mule-369
+run_uuid: e7c27bcc013d4727945e5f0296cefdc3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717604981116
+status: 3
+tags: []
+user_id: shree

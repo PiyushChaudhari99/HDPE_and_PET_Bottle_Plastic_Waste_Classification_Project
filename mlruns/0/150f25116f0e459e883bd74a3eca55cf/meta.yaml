@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Data_Science_Projects/CNN_Project/HDPE_and_PET_Bottle_Plastic_Waste_classification_Project/mlruns/0/150f25116f0e459e883bd74a3eca55cf/artifacts
+end_time: 1717606898807
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 150f25116f0e459e883bd74a3eca55cf
+run_name: wistful-fowl-105
+run_uuid: 150f25116f0e459e883bd74a3eca55cf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717606877650
+status: 3
+tags: []
+user_id: shree

@@ -1,7 +1,9 @@
 import tensorflow as tf
 from pathlib import Path
 import mlflow
+import numpy as np
 import mlflow.keras
+from mlflow.models.signature import infer_signature
 from urllib.parse import urlparse
 from cnnImageClassifier.entity.config_entity import EvaluationConfig
 from cnnImageClassifier.utils.common import save_json
@@ -58,6 +60,12 @@ class Evaluation:
         mlflow.set_registry_uri(self.config.mlflow_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
         
+        sample_input = np.random.rand(1, 224, 224, 3) 
+
+        # Infer the signature
+        signature = infer_signature(sample_input, self.model.predict(sample_input))
+
+
         with mlflow.start_run():
             mlflow.log_params(self.config.all_params)
             mlflow.log_metrics(
@@ -70,6 +78,6 @@ class Evaluation:
                 # There are other ways to use the Model Registry, which depends on the use case,
                 # please refer to the doc for more information:
                 # https://mlflow.org/docs/latest/model-registry.html#api-workflow
-                mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
+                mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model", signature=signature)
             else:
-                mlflow.keras.log_model(self.model, "model")
+                mlflow.keras.log_model(self.model, "model", signature=signature)

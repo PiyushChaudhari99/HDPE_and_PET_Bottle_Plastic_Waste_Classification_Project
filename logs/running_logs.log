@@ -292,3 +292,242 @@ x==========x]
 [2024-06-05 20:39:14,747: INFO: stage_04_model_eveluation_mlflow: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-06-05 20:46:42,818: INFO: stage_02_prepare_base_model: *******************]
+[2024-06-05 20:46:42,818: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-06-05 20:46:42,818: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-05 20:46:42,830: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-05 20:46:42,831: INFO: common: created directory at: artifacts]
+[2024-06-05 20:46:42,831: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-06-05 20:46:43,726: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-06-05 20:46:44,154: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-06-05 20:46:56,849: INFO: stage_03_model_training: *******************]
+[2024-06-05 20:46:56,849: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2024-06-05 20:46:56,849: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-05 20:46:56,849: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-05 20:46:56,849: INFO: common: created directory at: artifacts]
+[2024-06-05 20:46:56,849: INFO: common: created directory at: artifacts\training]
+[2024-06-05 21:55:08,198: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-06-05 21:55:24,949: INFO: stage_04_model_eveluation_mlflow: *******************]
+[2024-06-05 21:55:24,949: INFO: stage_04_model_eveluation_mlflow: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-06-05 21:55:24,949: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-05 21:55:24,949: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-05 21:55:24,949: INFO: common: created directory at: artifacts]
+[2024-06-05 21:59:40,820: INFO: common: json file saved at: scores.json]
+[2024-06-05 21:59:40,822: INFO: common: json file saved at: scores.json]
+[2024-06-05 21:59:43,482: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-06-05 21:59:44,570: INFO: builder_impl: Assets written to: C:\Users\shree\AppData\Local\Temp\tmph66cftk5\model\data\model\assets]
+[2024-06-05 22:00:16,280: INFO: stage_04_model_eveluation_mlflow: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-06-05 22:01:53,706: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-05 22:01:53,720: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-05 22:01:53,723: INFO: common: created directory at: artifacts]
+[2024-06-05 22:06:53,002: INFO: common: json file saved at: scores.json]
+[2024-06-05 22:06:57,956: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-06-05 22:07:00,200: INFO: builder_impl: Assets written to: C:\Users\shree\AppData\Local\Temp\tmpmj9gdq2n\model\data\model\assets]
+[2024-06-05 22:12:46,830: INFO: stage_02_prepare_base_model: *******************]
+[2024-06-05 22:12:46,831: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-06-05 22:12:46,845: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-05 22:12:46,849: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-05 22:12:46,851: INFO: common: created directory at: artifacts]
+[2024-06-05 22:12:46,852: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-06-05 22:12:47,801: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-06-05 22:12:48,176: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-06-05 22:13:00,704: INFO: stage_03_model_training: *******************]
+[2024-06-05 22:13:00,704: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2024-06-05 22:13:00,707: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-05 22:13:00,709: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-05 22:13:00,709: INFO: common: created directory at: artifacts]
+[2024-06-05 22:13:00,709: INFO: common: created directory at: artifacts\training]
+[2024-06-05 22:26:59,724: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-06-05 22:27:18,537: INFO: stage_04_model_eveluation_mlflow: *******************]
+[2024-06-05 22:27:18,538: INFO: stage_04_model_eveluation_mlflow: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-06-05 22:27:18,540: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-05 22:27:18,541: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-05 22:27:18,542: INFO: common: created directory at: artifacts]
+[2024-06-05 22:31:17,315: INFO: common: json file saved at: scores.json]
+[2024-06-05 22:31:17,317: INFO: common: json file saved at: scores.json]
+[2024-06-05 22:31:17,318: INFO: stage_04_model_eveluation_mlflow: Logging the model on the MLflow]
+[2024-06-05 22:31:20,177: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-06-05 22:31:21,257: INFO: builder_impl: Assets written to: C:\Users\shree\AppData\Local\Temp\tmpqqefcsyw\model\data\model\assets]
+[2024-06-05 22:31:38,809: INFO: stage_04_model_eveluation_mlflow: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-06-05 22:42:36,200: WARNING: _internal:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.]
+[2024-06-05 22:42:36,204: INFO: _internal:  * Running on http://192.168.190.187:8080/ (Press CTRL+C to quit)]
+[2024-06-05 22:49:05,106: INFO: _internal: 192.168.190.187 - - [05/Jun/2024 22:49:05] "GET / HTTP/1.1" 200 -]
+[2024-06-05 22:49:33,587: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "E:\Data_Science_Projects\CNN_Project\HDPE_and_PET_Bottle_Plastic_Waste_classification_Project\src\cnnImageClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-06-05 22:49:33,664: INFO: _internal: 192.168.190.187 - - [05/Jun/2024 22:49:33] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-06-05 22:53:16,668: WARNING: _internal:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.]
+[2024-06-05 22:53:16,668: INFO: _internal:  * Running on http://192.168.190.187:8080/ (Press CTRL+C to quit)]
+[2024-06-05 22:53:43,940: INFO: _internal: 192.168.190.187 - - [05/Jun/2024 22:53:43] "GET / HTTP/1.1" 200 -]
+[2024-06-05 22:53:50,289: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "E:\Data_Science_Projects\CNN_Project\HDPE_and_PET_Bottle_Plastic_Waste_classification_Project\src\cnnImageClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-06-05 22:53:50,289: INFO: _internal: 192.168.190.187 - - [05/Jun/2024 22:53:50] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-06-05 22:59:11,871: WARNING: _internal:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.]
+[2024-06-05 22:59:11,871: INFO: _internal:  * Running on http://192.168.190.187:8080/ (Press CTRL+C to quit)]
+[2024-06-05 23:00:41,901: INFO: _internal: 192.168.190.187 - - [05/Jun/2024 23:00:41] "GET / HTTP/1.1" 200 -]
+[2024-06-05 23:00:46,888: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "E:\Data_Science_Projects\CNN_Project\HDPE_and_PET_Bottle_Plastic_Waste_classification_Project\src\cnnImageClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("artifacts\training\model.h5", "model.h5"))
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at artifacts	raining\model.h5\model.h5
+[2024-06-05 23:00:46,888: INFO: _internal: 192.168.190.187 - - [05/Jun/2024 23:00:46] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-06-05 23:01:26,308: WARNING: _internal:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.]
+[2024-06-05 23:01:26,308: INFO: _internal:  * Running on http://192.168.190.187:8080/ (Press CTRL+C to quit)]
+[2024-06-05 23:01:41,160: INFO: _internal: 192.168.190.187 - - [05/Jun/2024 23:01:41] "GET / HTTP/1.1" 200 -]
+[2024-06-05 23:01:48,227: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "E:\Data_Science_Projects\CNN_Project\HDPE_and_PET_Bottle_Plastic_Waste_classification_Project\src\cnnImageClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("artifacts/training/model.h5", "model.h5"))
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\shree\AppData\Local\Programs\Python\Python38\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at artifacts/training/model.h5\model.h5
+[2024-06-05 23:01:48,235: INFO: _internal: 192.168.190.187 - - [05/Jun/2024 23:01:48] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-06-05 23:02:20,206: WARNING: _internal:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.]
+[2024-06-05 23:02:20,207: INFO: _internal:  * Running on http://192.168.190.187:8080/ (Press CTRL+C to quit)]
+[2024-06-05 23:02:24,123: INFO: _internal: 192.168.190.187 - - [05/Jun/2024 23:02:24] "GET / HTTP/1.1" 200 -]
+[2024-06-05 23:02:31,462: INFO: _internal: 192.168.190.187 - - [05/Jun/2024 23:02:31] "POST /predict HTTP/1.1" 200 -]
+[2024-06-05 23:03:29,427: WARNING: _internal:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.]
+[2024-06-05 23:03:29,428: INFO: _internal:  * Running on http://192.168.190.187:8080/ (Press CTRL+C to quit)]
+[2024-06-05 23:03:37,438: INFO: _internal: 192.168.190.187 - - [05/Jun/2024 23:03:37] "GET / HTTP/1.1" 200 -]
+[2024-06-05 23:03:45,597: INFO: _internal: 192.168.190.187 - - [05/Jun/2024 23:03:45] "POST /predict HTTP/1.1" 200 -]
+[2024-06-05 23:04:34,098: INFO: _internal: 192.168.190.187 - - [05/Jun/2024 23:04:34] "POST /predict HTTP/1.1" 200 -]
+[2024-06-05 23:05:10,108: WARNING: _internal:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.]
+[2024-06-05 23:05:10,108: INFO: _internal:  * Running on http://192.168.190.187:8080/ (Press CTRL+C to quit)]
+[2024-06-05 23:05:15,261: INFO: _internal: 192.168.190.187 - - [05/Jun/2024 23:05:15] "GET / HTTP/1.1" 200 -]
+[2024-06-05 23:05:26,969: INFO: _internal: 192.168.190.187 - - [05/Jun/2024 23:05:26] "POST /predict HTTP/1.1" 200 -]
+[2024-06-05 23:05:45,015: INFO: _internal: 192.168.190.187 - - [05/Jun/2024 23:05:45] "POST /predict HTTP/1.1" 200 -]
+[2024-06-05 23:05:54,979: INFO: _internal: 192.168.190.187 - - [05/Jun/2024 23:05:54] "POST /predict HTTP/1.1" 200 -]
+[2024-06-05 23:06:05,760: INFO: _internal: 192.168.190.187 - - [05/Jun/2024 23:06:05] "POST /predict HTTP/1.1" 200 -]
+[2024-06-05 23:07:20,812: INFO: stage_03_model_training: *******************]
+[2024-06-05 23:07:20,812: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2024-06-05 23:07:20,812: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-05 23:07:20,828: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-05 23:07:20,829: INFO: common: created directory at: artifacts]
+[2024-06-05 23:07:20,830: INFO: common: created directory at: artifacts\training]
+[2024-06-05 23:34:16,514: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-06-06 19:37:41,138: INFO: stage_03_model_training: *******************]
+[2024-06-06 19:37:41,149: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2024-06-06 19:37:41,158: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 19:37:41,165: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 19:37:41,167: INFO: common: created directory at: artifacts]
+[2024-06-06 19:37:41,168: INFO: common: created directory at: artifacts\training]
+[2024-06-06 20:30:14,509: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-06-06 20:30:41,194: INFO: stage_04_model_eveluation_mlflow: *******************]
+[2024-06-06 20:30:41,204: INFO: stage_04_model_eveluation_mlflow: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-06-06 20:30:41,204: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-06-06 20:30:41,204: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-06-06 20:30:41,214: INFO: common: created directory at: artifacts]
+[2024-06-06 20:35:53,348: INFO: common: json file saved at: scores.json]
+[2024-06-06 20:35:53,348: INFO: common: json file saved at: scores.json]
+[2024-06-06 20:35:53,352: INFO: stage_04_model_eveluation_mlflow: Logging the model on the MLflow]
+[2024-06-06 20:35:58,591: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-06-06 20:36:00,487: INFO: builder_impl: Assets written to: C:\Users\shree\AppData\Local\Temp\tmppb719pss\model\data\model\assets]
+[2024-06-06 20:36:26,444: INFO: stage_04_model_eveluation_mlflow: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
