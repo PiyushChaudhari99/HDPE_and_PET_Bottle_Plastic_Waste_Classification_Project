@@ -6,7 +6,7 @@ fsspec==2024.5.0
 numpy==1.23.1
 packaging==23.2
 pandas==1.4.3
-pillow==10.2.0
+pillow==10.3.0
 protobuf==4.25.3
 pydot==2.0.0
 requests==2.32.3
